@@ -29,7 +29,7 @@
 			<section>
 				<h2>Storytelling with your data</h2>
 
-				<p>Slides: <a href="http://bit.ly/d3-v4" target="_blank"></a></p>
+				<p>Slides: <a href="http://bit.ly/ng2-data-stories" target="_blank">bit.ly/ng2-data-stories</a></p>
 				<p>
 					<a href="https://twitter.com/AysegulYonet">@AysegulYonet</a>
 				</p>
@@ -66,6 +66,16 @@
 				<aside class="notes">
 Why do I care. Information overload. Open source tools out there to communicate better. These are the tools we are using to build our next applications.
 				</aside>
+			</section>
+
+			<section>
+				<h2>Our Toolbox</h2>
+				<ul>
+					<li class="fragment"><a href="" target='_blank'>ThreeJS</a></li>
+					<li class="fragment"><a href="" target='_blank'>AngularJS</a></li>
+					<li class="fragment"><a href="" target='_blank'>D3.js</a></li>
+					<li class="fragment"><a href="" target='_blank'>Rxjs</a></li>
+				</ul>
 			</section>
 
 			<section>
@@ -222,8 +232,8 @@ x = d3.scaleLinear()
 				<h2>Scales</h2>
 				<pre><code class="hljs" data-trim contenteditable>
 x = d3.scaleLinear()
-    .range([0, width])
-		.domain([0, 100]);
+	.range([0, width])
+	.domain([0, 100]);
 	</code></pre>
 		<a href="http://jsfiddle.net/yonet3d/pgrwrvyp/13/" target="_blank">Fiddle</a>
 			</section>
@@ -309,6 +319,24 @@ ng g service myService
 </code></pre>
 			</section>
 			<section>
+				<h2>Getting Started</h2>
+				<pre><code  data-trim contenteditable>
+ng g module myModule
+ng g component myComponent
+ng g service myService
+</code></pre>
+
+			</section>
+			<section>
+				<pre><code  data-trim contenteditable>
+ng build
+				</code></pre>
+
+				<img src="./images/cli.png" alt="" />
+			</section>
+
+
+			<section>
 				<h2>Component</h2>
 				<pre><code  data-trim contenteditable>
 import { Component, OnInit } from '@angular/core';
@@ -374,23 +402,20 @@ export class TestComponent implements OnInit {
 			<section>
 				<h2>Component</h2>
 				<pre><code  data-trim contenteditable>
-import { Component, OnInit, Output, Input } from '@angular/core';
-
 @Component({
 	selector: 'app-test',
-	styleUrls: ['./test.component.sass'],
 	animations: [
 	trigger('buttonState', [
-      state('inactive', style({
-        backgroundColor: '#eee',
-        transform: 'scale(1)'
-      })),
-      state('active',   style({
-        backgroundColor: '#cfd8dc',
-        transform: 'scale(1.1)'
-      })),
-      transition('inactive => active', animate('100ms ease-in')),
-      transition('active => inactive', animate('100ms ease-out'))
+	  state('inactive', style({
+	    backgroundColor: '#eee',
+	    transform: 'scale(1)'
+	  })),
+	  state('active',   style({
+	    backgroundColor: '#cfd8dc',
+	    transform: 'scale(1.1)'
+	  })),
+	  transition('inactive => active', animate('100ms ease-in')),
+	  transition('active => inactive', animate('100ms ease-out'))
     ])
 	]
 })
@@ -449,7 +474,8 @@ Nests</li>
 				<p>
 
 					- <a href="https://twitter.com/AysegulYonet">@AysegulYonet</a> <br>
-					- <a href="https://github.com/Yonet/d3-v4-slides">Slides and code</a>
+					- <a href="https://github.com/Yonet/ng2-data-story">Code</a>
+					- <a href="https://github.com/Yonet/data-story-slides">Slides</a>
 				</p>
 			</section>
 
