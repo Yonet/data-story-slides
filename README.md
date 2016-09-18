@@ -1,19 +1,19 @@
 ### d3-v4-slides
 
-D3.js version 4.0 slides for [ModernWeb/AngularJS meetup](https://www.meetup.com/modernweb/events/232875869/) 
+Data Visualization Slides for Strange Loop Conference 2016. 
 
-You can view the slides at [bit.ly/d3-v4](https://yonet.github.io/d3-v4-slides/)
+You can view the slides at [https://yonet.github.io/data-story-slides/](bit.ly/ng2-data-stories)
 
 ### Setup
 
 1. Clone the d3-v4-slides repository
    ```sh
-   $ git clone https://github.com/Yonet/d3-v4-slides.git
+   $ git clone https://github.com/Yonet/data-story-slides
    ```
 
 1. Navigate to the d3-v4-slides folder
    ```sh
-   $ cd d3-v4-slides
+   $ cd data-story-slides
    ```
 
 1. Install dependencies
@@ -42,5 +42,3 @@ You can view the slides at [bit.ly/d3-v4](https://yonet.github.io/d3-v4-slides/)
 ## License
 
 MIT licensed
-
-Copyright (C) 2016 Hakim El Hattab, http://hakim.se
