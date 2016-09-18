@@ -1,8 +1,8 @@
-### d3-v4-slides
+### Data Stories Slides
 
 Data Visualization Slides for Strange Loop Conference 2016. 
 
-You can view the slides at [https://yonet.github.io/data-story-slides/](bit.ly/ng2-data-stories)
+You can view the slides at [bit.ly/ng2-data-stories](https://yonet.github.io/data-story-slides/)
 
 ### Setup
 
